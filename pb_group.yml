@@ -1,0 +1,8 @@
+- hosts: all
+  become: yes
+  vars_files:
+    - ./host_vars/group_info.yml
+    - ./host_vars/user_info.yml
+  roles:
+    - group
+    - user

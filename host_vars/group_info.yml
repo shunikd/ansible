@@ -1,0 +1,5 @@
+usergroup:
+  - name: 'apg1'
+    gid: '1200'
+  - name: 'apg2'
+    gid: '1210'

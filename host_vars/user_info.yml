@@ -1,0 +1,15 @@
+# user parameter
+apusers:
+ - name: apuser01
+   uid: 1500
+   group: 1200
+   groups: 1210
+   password: $6$AzhWNOS.06yqsb/g$YJ8YrEj8.I0vNijsVyAQLv8S/wqSfK8dTrCQFHstSPtyrDa9p6vAjfJVz7UoMbGLbXqpB1meFB3pDmW3GE3TX1
+   shell: /bin/bash
+ - name: apuser02
+   uid: 1501
+   group: 1200
+   groups: 1210
+   password: $6$AzhWNOS.06yqsb/g$YJ8YrEj8.I0vNijsVyAQLv8S/wqSfK8dTrCQFHstSPtyrDa9p6vAjfJVz7UoMbGLbXqpB1meFB3pDmW3GE3TX1
+   shell: /bin/bash
+

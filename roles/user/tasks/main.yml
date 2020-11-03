@@ -1,0 +1,12 @@
+---
+# tasks file for user
+
+- name: user_add
+  user:
+    name: "{{ item.name }}"
+    uid: "{{ item.uid }}"
+    group: "{{ item.group }}"
+    groups: "{{ item.groups }}"
+    password: "{{ item.password }}"
+    shell: "{{ item.shell }}"
+  loop: "{{ apusers }}"
